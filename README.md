@@ -1,4 +1,4 @@
-# weight_tracker_app
+# MyFitLogApp
 
 A new Flutter project.
 
