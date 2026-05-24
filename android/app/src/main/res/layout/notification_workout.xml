@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#222222">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/3 Bench Press"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/kgPlus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_input_add"
+            android:contentDescription="plus kg" />
+
+        <TextView
+            android:id="@+id/kgValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.0 kg"
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="8dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/kgMinus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_delete"
+            android:contentDescription="minus kg" />
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="1dp" />
+
+        <ImageView
+            android:id="@+id/repsPlus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_input_add"
+            android:contentDescription="plus reps" />
+
+        <TextView
+            android:id="@+id/repsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 tkr"
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="8dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/repsMinus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_delete"
+            android:contentDescription="minus reps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/saveBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="✓"
+            android:gravity="center"
+            android:textColor="#FFD54F"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/closeBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="KAPAT"
+            android:gravity="center"
+            android:textColor="#FFD54F"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout> 
